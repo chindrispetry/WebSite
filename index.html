@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <title>Hello, world!</title>
+  <meta charset='UTF-8' />
+  <meta name='description' content= />
+  <link rel='icon' href='img/favicon.ico'>
+</head>
+<div>Hello world!</div>
+<h2>Task 2</h2>
+
+<body>
+  <table border="1">
+    <tr>
+      <th>Text</th>
+      <th>Text</th>
+      <th colspan="2">Text</th>
+      <th colspan="2">Text</th>
+    </tr>
+    <tr>
+      <td>Text</td>
+      <td>Text</td>
+      <td colspan="2">Text</td>
+      <td>Text</td>
+      <td>Text</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Text</td>
+      <td rowspan="2">Text</td>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Text</td>
+      <td rowspan="2">Text</td>
+      <td>Text</td>
+      <td>Text</td>
+    </tr>
+    <tr>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+      <td>Text</td>
+    </tr>
+  </table>
+  <h2>Task 3</h2>
+  <ul>
+    <li>Search</li>
+    <ul>
+      <li><a href="#">Google</a></li>
+      <li><a href="#">Bing</a></li>
+      <li><a href="#">Reddit</a></li>
+    </ul>
+    <li>USV</li>
+    <ul>
+      <li><a href="#">Main page</a></li>
+      <li><a href="#">FIESC</a></li>
+      <li><a href="#">Student guide</a></li>
+    </ul>
+    <li>News</li>
+    <ul>
+      <li><a href="#">Republic.ro</a></li>
+      <li><a href="#">CNN</a></li>
+      <li><a href="#">BBC</a></li>
+    </ul>
+  </ul>
+  <h2>Task 4</h2>
+  <form method="GET">
+    <fieldset>
+      <legend>User info</legend>
+      <label>your first name</label>
+      <input type="text" placeholder="your first name" required><br>
+      <label>your last name</label>
+      <input type="text" placeholder="your last name" required><br>
+      <label>your e-mail</label>
+      <input type="text" placeholder="your e-mail" required><br>
+      <label>Age</label>
+      <input type="text" placeholder="age" required><br>
+      <label>favorite pizza</label>
+      <input type="text" placeholder="favorite pizza" required><br>
+      <label>favorite pizza</label>
+      <input type="text" placeholder="favorite pizza" required><br>
+      <label>favorite day</label>
+      <input type="text" placeholder="favorite day" required><br>
+    </fieldset>
+    <label>favorite machines</label>
+    <select required>
+      <option value="">None</option>
+      <optgroup label="Cars">
+        <option value="volvo">Volvo</option>
+        <option value="mazda">Mazda</option>
+      </optgroup>
+      <optgroup label="Airplane">
+        <option value="B-372">B-372</option>
+        <option value="F77">F77</option>
+      </optgroup>
+    </select><br>
+    <label>Opinion</label>
+    <textarea rows="4" cols="50" name="comment" required>
+    </textarea><br>
+    <input type="submit">
+  </form>
+  <h2>Task 5</h2>
+  <form method="GET" action="https://www.google.com/search?">
+    <fieldset>
+      <legend>Google Search</legend>
+      <input type="text" name="q" pattern="[a-z]{3,50}" required>
+      <input type="submit" value="Search">
+    </fieldset>
+  </form>
+  <form method="GET" action="https://translate.google.com/?">
+    <fieldset>
+      <legend>Google Translate</legend>
+      <label>Din</label>
+      <input type="text" name="sl" required>
+      <label>In</label>
+      <input type="text" name="tl" required>
+      <label>Text</label>
+      <input type="text" name="text" required>
+      <label>Translate</label>
+      <select>
+        <option value="translate">translate</option>
+      </select>
+      <input type="submit" value="Translate">
+    </fieldset>
+  </form>
+</body>
+
+</html>

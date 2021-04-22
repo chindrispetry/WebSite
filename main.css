@@ -30,7 +30,11 @@ nav {
 }
 
 .aboutMe h2 {
-  margin-left: 50px;
+  margin-left: 20%;
+}
+
+.aboutMe h3 {
+  margin-left: 34%;
 }
 
 .content {
@@ -64,4 +68,13 @@ footer {
 
 footer p {
   padding-top: 50px;
+}
+
+.top h3 {
+  margin-left: 40%;
+}
+
+.imgstudy {
+  width: 200px;
+  height: 72px;
 }

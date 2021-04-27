@@ -199,7 +199,6 @@ form button {
   background-size: 500px;
   background-repeat: no-repeat;
   animation: img-anim 10s infinite;
-  transition: background-image 1s ease-in-out;
 }
 
 @keyframes img-anim {

@@ -191,24 +191,9 @@ form button {
   margin-left: 5%;
 }
 
-.images {
+.images img {
   width: 500px;
-  height: 520px;
+  height: 400px;
   margin-left: 20px;
   border-radius: 10px;
-  background-size: 500px;
-  background-repeat: no-repeat;
-  animation: img-anim 10s infinite;
-}
-
-@keyframes img-anim {
-  0% {
-    background-image: url("team.jpg");
-  }
-  50% {
-    background-image: url("trofeu.jpg");
-  }
-  100% {
-    background-image: url("team.jpg");
-  }
 }
